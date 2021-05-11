@@ -75,6 +75,23 @@ GenerateClassCluster=0
 DocumentUniqueId=BOBCMJBD
 
 [Document3]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OUCBRLYT
+
+[Document4]
 DocumentPath=Resolver Lib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +108,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SLHAKBQR
 
-[Document4]
+[Document5]
 DocumentPath=Resolver PcbLibPcbLib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -107,23 +124,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CVUHPHCD
-
-[Document5]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=OUCBRLYT
 
 [Document6]
 DocumentPath=PCB.PcbDoc
@@ -308,22 +308,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=RICOH MP C2003
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -527,6 +517,12 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=Export Comments
+OutputName7=Export Comments
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1654,17 +1650,17 @@ ParameterName156=V Span Min
 ParameterUpdate156=1
 ParameterName157=Value
 ParameterUpdate157=1
-ParameterName158=Weight
+ParameterName158=Vendor
 ParameterUpdate158=1
-ParameterName159=Vendor
+ParameterName159=Voltage
 ParameterUpdate159=1
-ParameterName160=Width
+ParameterName160=Voltage Rating
 ParameterUpdate160=1
-ParameterName161=Voltage
+ParameterName161=Voltage Rating (DC)
 ParameterUpdate161=1
-ParameterName162=Voltage Rating
+ParameterName162=Weight
 ParameterUpdate162=1
-ParameterName163=Voltage Rating (DC)
+ParameterName163=Width
 ParameterUpdate163=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
